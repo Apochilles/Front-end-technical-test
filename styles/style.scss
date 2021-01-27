@@ -1,0 +1,71 @@
+@import "./variables";
+
+@mixin bodyDimensions {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin boxDimensions {
+  height: 100px;
+  width: 200px;
+  display: flex;
+}
+
+@mixin containerDimensions {
+  height: 40vh;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  @include bodyDimensions();
+}
+
+div.container {
+  @include containerDimensions();
+}
+
+div.box_one,
+div.box_two,
+div.box_three,
+div.box_four,
+div.box_five,
+div.box_six,
+div.box_seven,
+div.box_eight,
+div.box_nine,
+div.box_ten,
+div.box_eleven,
+div.box_twelve,
+div.box_thirteen,
+div.box_fourteen,
+div.box_fifteen {
+  @include boxDimensions();
+
+  border: 2px solid $borderColour;
+  margin: 2px;
+}
+
+div.box_one,
+div.box_two,
+div.box_four,
+div.box_five,
+div.box_seven,
+div.box_eight,
+div.box_ten,
+div.box_eleven,
+div.box_thirteen,
+div.box_fourteen {
+  background-color: $primaryBoxColour;
+}
+
+div.box_three,
+div.box_six,
+div.box_nine,
+div.box_twelve,
+div.box_fifteen {
+  background-color: $secondaryBoxColour;
+}
+
