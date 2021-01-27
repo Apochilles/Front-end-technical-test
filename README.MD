@@ -1,12 +1,12 @@
 # Please create the following:
 
-- 1 15 boxes with black borders
-- 2 Every third box should have a #282f54 background
-- 3 All other boxes should have a #285428 background
-- 4 On devices smaller than 768 pixels the rows should contain one boxes
-- 5 On devices larger than 768 pixels the rows should contain two boxes
-- 6 On devices larger than 1024 pixels the boxes should be in rows of four
-- 7 The last row of boxes should aligned with the rest of the rows.
+-  15 boxes with black borders
+-  Every third box should have a #282f54 background
+-  All other boxes should have a #285428 background
+-  On devices smaller than 768 pixels the rows should contain one boxes
+-  On devices larger than 768 pixels the rows should contain two boxes
+-  On devices larger than 1024 pixels the boxes should be in rows of four
+-  The last row of boxes should aligned with the rest of the rows.
 
 # Tools and submissions guidelines
 
