@@ -1,5 +1,5 @@
 body {
-  height: 100vh;
+  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,6 +19,7 @@ div.container {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-left: 250px;
 }
 
 div.box_one,
@@ -64,5 +65,28 @@ div.box_nine,
 div.box_twelve,
 div.box_fifteen {
   background-color: #282f54;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    height: 60vh;
+  }
+  div.container {
+    width: 600px;
+    margin-left: 180px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    height: 60vh;
+  }
+  div.container {
+    width: 400px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 15px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
